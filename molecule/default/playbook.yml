@@ -2,7 +2,7 @@
 - name: Install Yandex Cloud autostarter on all hosts.
   hosts: all
   roles:
-    - role: yc_autostarter
+    - role: ansible-yc-autostarter
 
   vars_files:
     - ./playbook-vars.yml
